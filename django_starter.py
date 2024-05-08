@@ -7,7 +7,7 @@ import venv
 # -------------------- You can customize the settings bellow --------------------
 
 # You can customize the 'dependencies' dict:
-# the key is the dependency, value is the label that will be added in 'INSTALLED_APPS'
+# the key is the dependency to be installed, value is the label that will be added in 'INSTALLED_APPS'
 dependencies = {
     'django': None,
     # 'django_managepy_anywhere': None,
@@ -47,8 +47,7 @@ app_question = f"\n\tName your app ('exit' to quit): "
 def get_folder_name(parameter):  # Used twice to get project and app names
     while True:
         try:
-            new_folder = input(f"{parameter}")
-            new_folder = new_folder.strip().replace(' ', '_')
+            new_folder = input(f"{parameter}").strip().replace(' ', '_')
             if new_folder.lower() == 'exit':
                 print('\n\tPython interpreter terminated.')
                 break

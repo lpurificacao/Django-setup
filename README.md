@@ -17,7 +17,7 @@ Run it from your shell or IDE. That's it.
 
 ${\large{\textsf{\textcolor{aqua}{What does it do?}}}}$
 
-It creates the project structure, files and configuration for your project.
+It creates the virtual environment, project structure, files and configuration for your project.
 
 It upgrades pip, installs Django or any other dependencies you want and applies initial migrations to the database.
 
