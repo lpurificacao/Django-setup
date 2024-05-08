@@ -1,5 +1,5 @@
 
-<img align="right" src="logo/python_django_logo.webp">
+<img align="right" src="python_django_logo/python_django_logo.webp">
 
 ${\huge{\textsf{\textcolor{aqua}{This is my Django starter}}}}$
 
