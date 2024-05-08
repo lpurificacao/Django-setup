@@ -7,7 +7,7 @@ import venv
 # -------------------- You can customize the settings bellow --------------------
 
 # You can customize the 'dependencies' dict:
-# the key is the dependency, the value is the label that will be added in 'INSTALLED_APPS'
+# the key is the dependency, value is the label that will be added in 'INSTALLED_APPS'
 dependencies = {
     'django': None,
     # 'django_managepy_anywhere': None,
@@ -48,6 +48,7 @@ def get_folder_name(parameter):  # Used twice to get project and app names
     while True:
         try:
             new_folder = input(f"{parameter}")
+            new_folder = new_folder.strip().replace(' ', '_')
             if new_folder.lower() == 'exit':
                 print('\n\tPython interpreter terminated.')
                 break
@@ -160,7 +161,7 @@ def create_extra_folders():
 
 
 def django_migrate():
-    whats_happening = f"\n\tApplying initial database migrations to the '{project}' database..."
+    whats_happening = f"\n\tApplying initial database migrations to '{project}' database..."
     cmd = f'{python} manage.py migrate -v 0'
     run_django_cmd(cmd, step=whats_happening)
 

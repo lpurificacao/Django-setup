@@ -1,5 +1,5 @@
 
-<img align="right" src="logo/python_django_logo.webp">
+<img align="right" src="python_django_logo/python_django_logo.webp">
 
 ${\huge{\textsf{\textcolor{aqua}{This is my Django starter}}}}$
 
@@ -40,4 +40,3 @@ Unknown to me before, one does not need to activate the virtual environment to i
 
 Running system commands while handling input/output errors with Python's very handy built-in module [subprocess](https://docs.python.org/3/library/subprocess.html)
 
-# django-setup
