@@ -39,4 +39,3 @@ ${\large{\textsf{\textcolor{aqua}{What have I learned working on this project?}}
 Unknown to me before, one does not need to activate the virtual environment to install packages or libraries.
 
 Running system commands while handling input/output errors with Python's very handy built-in module [subprocess](https://docs.python.org/3/library/subprocess.html)
-
