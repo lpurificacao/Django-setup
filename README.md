@@ -1,3 +1,4 @@
+
 <img align="right" src="logo/python_django_logo.webp">
 
 ${\huge{\textsf{\textcolor{aqua}{This is my Django starter}}}}$
