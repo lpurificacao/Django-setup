@@ -27,7 +27,7 @@ ${\large{\textit{\textcolor{#0A1589}{I have my own way of structuring the folder
 
 Yes. Right at the beginning of the script you'll find 2 tuples: ${\textbf{\textsf{\textcolor{Process#0A1589}{'project\\_folders'}}}}$ and ${\textbf{\textsf{\textcolor{Process#0A1589}{'app\\_folders'}}}}$
 
-A single string represents a directory.
+A single string represents a directory to be created.
 
 A tuple of strings means a parent directory, a child directory, so on and so forth.
 
